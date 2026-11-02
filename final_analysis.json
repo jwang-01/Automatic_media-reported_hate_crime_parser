@@ -1,0 +1,31 @@
+{
+  "2026-10-16": [
+    {
+      "Hate Crime?": false,
+      "Reasoning": "The article discusses political polling and campaign dynamics in Texas and does not describe any criminal act motivated by racial bias.",
+      "Race (Victim)": "none",
+      "Race (Perpetrator)": "none",
+      "Summary of Crime": "none",
+      "Date of Crime": "none",
+      "Location of Crime": "none"
+    },
+    {
+      "Date of Crime": "2026-10-14",
+      "Hate Crime?": true,
+      "Location of Crime": "Aurora, Illinois, USA",
+      "Race (Perpetrator)": "none",
+      "Race (Victim)": "Indian (South Asian)",
+      "Reasoning": "The teenager was arrested for plotting a mass shooting at a Hindu temple, and officials described the motive as anti\u2011Hindu and anti\u2011India hate, indicating bias\u2011motivated criminal intent, which meets the definition of a hate crime.",
+      "Summary of Crime": "A teenager was arrested for allegedly planning a mass shooting at the Swaminarayan Hindu Temple in Aurora, Illinois. Authorities characterized the plot as driven by anti\u2011Hindu and anti\u2011India animus, prompting a civil rights investigation."
+    },
+    {
+      "Hate Crime?": true,
+      "Reasoning": "The teenager was arrested for attempting to open fire on a Hindu temple, driven by anti-Hindu and anti-Indian sentiments expressed in a white\u2011supremacist manifesto. The target was chosen because of its religious/ethnic identity, meeting the definition of a hate crime motivated by racial/religious bias.",
+      "Race (Victim)": "Indian (Hindu)",
+      "Race (Perpetrator)": "White",
+      "Summary of Crime": "A 19\u2011year\u2011old white supremacist, Alexandros Paporakis, planned and attempted a mass shooting at a Hindu temple in Aurora, Illinois on October 11, 2024. His firearm jammed, he fled, and was later arrested on charges of making a terrorist threat and unlawful possession of a weapon. A manifesto revealed anti\u2011Indian, anti\u2011Hindu bias.",
+      "Date of Crime": "October 11, 2024",
+      "Location of Crime": "Aurora, Illinois, USA"
+    }
+  ]
+}
