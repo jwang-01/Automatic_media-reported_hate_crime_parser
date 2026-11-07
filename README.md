@@ -23,22 +23,16 @@ For SQL Query:
 - GDELT_data.py: This was the initial code for parsing data from GDELT inspired by the code shown in the GDELT website examples.
 
 - LOOKUP-GKGTHEMES.TXT: This is the original list of themes from GDELT Global Knowledge Graph (GKG)
-- themes.txt:
-- race.txt: These are themes that specifically contain ethnicities/race
+- themesss_new.json: These are themes that specifically contain ethnicities/race
+- theme.json: These are themes that specifically contain words related to crimess/violence
 
+- news_parser.py: This is the code for making SQL Queries
+   - gdelt_data.json: This is an example of parsed GDELT data on articles related to discrimination and hate crimes from October 16th (Around the day of the Alexandros Paporakis attempted anti-Indian mass shooting)
+ 
+- text_parser.py: This is the code that takes the URLS from gdelt_data.json and parses the article text
+   - articles_extracted.json: This is an example of unique articles extracted from lines 147 to 155, inclusive, of gdelt_data.json. I chose those lines specifically because 147-155     contains mentions of the Alexandros Paporakis case.) Only unique titles are kept because the titles of the articles are made into dictionary keys and python only keeps unique keys. 
 
+- api_reader.py: This is the code that takes the article texts, then runs them through GROQ API's openai chatbot to figure out whether or not the article was talking about a hate crime and why, the race of the perpetrator and victim, the summary of the crime, the date of the crime, and the location of the crime.
 
-
-api_reader.py
-
-articles_extracted.json
-
-final_analysis.json
-
-gdelt_data.json
-
-main.py
-
-news_parser.py
-
-text_parser.py
+- main.py: This is the main file that takes all the news_parser.py, text_parser.py, and api_reader.py modules and combines them into one system. After iterating through the process for one day, the time module is used to force the file to wait for 24 hours before reparsing data for a new day. 
+   - final_analysis.json: This is an example of the final output after the articles from articles_extracted.json is analyzed by the LLM (lines 147-155 only). 
