@@ -7,8 +7,14 @@ For Python code:
 
 1. Use Python 3
 2. Set up virtual environment
-3. Download the requirements.txt  and load up the packages
+3. Download the requirements.txt and load up the packages
 
 For SQL Query:
 1. You must log into a google.cloud account to run the code
-2. 
+2. Download Google Cloud CLI into your local machine and follow the set-up instructions
+3. Download the Google Cloud Code extension in VS Code
+4. Run: '''gcloud auth login'''
+5. Run: '''gcloud auth application-default login'''
+6. Choose/create your project and now the project should be able to run
+
+
