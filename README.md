@@ -26,10 +26,10 @@ GROQ API Setup:
 
 - main_parser_code file:
 
-   - requirements.txt: File of required libraries/modules
+   - **`requirements.txt`**: File of required libraries/modules
 
-   - news_parser.py: This is the code for making SQL Queries
-      - gdelt_data.json: This is an example of parsed GDELT data on articles related to discrimination and hate crimes from October 16th (Around the day of the Alexandros Paporakis attempted anti-Indian mass shooting)
+   - **`news_parser.py`**: This is the code for making SQL Queries
+      - `gdelt_data.json`: This is an example of parsed GDELT data on articles related to discrimination and hate crimes from October 16th (Around the day of the Alexandros Paporakis attempted anti-Indian mass shooting)
  
    - text_parser.py: This is the code that takes the URLS from gdelt_data.json and parses the article text
       - articles_extracted.json: This is an example of unique articles extracted from lines 147 to 155, inclusive, of gdelt_data.json. I chose those lines specifically because 147-155     contains mentions of the Alexandros Paporakis case.) Only unique titles are kept because the titles of the articles are made into dictionary keys and python only keeps unique keys. 
