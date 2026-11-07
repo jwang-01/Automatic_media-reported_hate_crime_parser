@@ -13,14 +13,14 @@ For SQL Query:
 1. You must log into a google.cloud account to run the code
 2. Download Google Cloud CLI into your local machine and follow the set-up instructions
 3. Download the Google Cloud Code extension in VS Code
-4. Run: '''gcloud auth login'''
-5. Run: '''gcloud auth application-default login'''
+4. Run: ```gcloud auth login```
+5. Run: ```gcloud auth application-default login```
 6. Choose/create your project and now the project should be able to run
 
 GROQ API Setup:
 1. Log into GROQ
 2. Create a project key for this project
-3. Load your project key into your environment using: ''' $env:GROQ_API_KEY="API_KEY" '''
+3. Load your project key into your environment using: ``` $env:GROQ_API_KEY="API_KEY" ```
 
 # About each file:
 
