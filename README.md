@@ -18,3 +18,27 @@ For SQL Query:
 6. Choose/create your project and now the project should be able to run
 
 
+# About each file:
+
+- GDELT_data.py: This was the initial code for parsing data from GDELT inspired by the code shown in the GDELT website examples.
+
+- LOOKUP-GKGTHEMES.TXT: This is the original list of themes from GDELT Global Knowledge Graph (GKG)
+- themes.txt:
+- race.txt: These are themes that specifically contain ethnicities/race
+
+
+
+
+api_reader.py
+
+articles_extracted.json
+
+final_analysis.json
+
+gdelt_data.json
+
+main.py
+
+news_parser.py
+
+text_parser.py
