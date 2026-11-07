@@ -22,9 +22,12 @@ For SQL Query:
 
 - GDELT_data.py: This was the initial code for parsing data from GDELT inspired by the code shown in the GDELT website examples.
 
-- LOOKUP-GKGTHEMES.TXT: This is the original list of themes from GDELT Global Knowledge Graph (GKG)
-- themesss_new.json: These are themes that specifically contain ethnicities/race
-- theme.txt: These are themes that specifically contain words related to crimess/violence
+- Themes: 
+   - LOOKUP-GKGTHEMES.TXT: This is the original list of themes from GDELT Global Knowledge Graph (GKG)
+   - themesss_new.json: These are themes that specifically contain ethnicities/race
+   - theme.txt: These are themes that specifically contain words related to crimess/violence
+
+- requirements.txt: File of required libraries/modules
 
 - news_parser.py: This is the code for making SQL Queries
    - gdelt_data.json: This is an example of parsed GDELT data on articles related to discrimination and hate crimes from October 16th (Around the day of the Alexandros Paporakis attempted anti-Indian mass shooting)
@@ -40,3 +43,7 @@ For SQL Query:
 # Limitations
 
 In the final_analysis file, you can see that there are repeated counts of the same event. If not addressed, this will eventually lead to an overestimate of hate crimes. We are currently working on an efficient solution to work on this issue that doesn't require another LLM or another algorithm with exponential time complexity. We have considered tagging each event with an evetn ID, but this would require the LLM to retain memory of the previous requests which our LLM cannot currently do. 
+
+# Library Credits
+
+Credits to: newspaper3k, GROQ API, Google Bigquery SQL
